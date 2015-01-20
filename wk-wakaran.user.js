@@ -11,7 +11,7 @@
 
 function onDontKnowClick(e) {
     if (isMeaning()) {
-    	document.getElementById("user-response").value="I have no clue T_T";
+        document.getElementById("user-response").value="Aargh! What does that even mean? (╯°□°)╯︵ ┻━┻";
     }
     else {
         document.getElementById("user-response").value="えぇぇ！。。。さっぱりわからないぃぃぃ。・ﾟﾟ･（≧д≦）･ﾟﾟ･｡";
