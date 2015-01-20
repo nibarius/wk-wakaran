@@ -14,7 +14,7 @@ function onDontKnowClick(e) {
     	document.getElementById("user-response").value="I have no clue T_T";
     }
     else {
-        document.getElementById("user-response").value="さっぱりわからないぃぃぃ";
+        document.getElementById("user-response").value="えぇぇ！。。。さっぱりわからないぃぃぃ。・ﾟﾟ･（≧д≦）･ﾟﾟ･｡";
     }
 }
 
