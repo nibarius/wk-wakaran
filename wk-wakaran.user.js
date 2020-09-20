@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        WaniKani: I Don't know button
 // @namespace   wk-wakaran
-// @version     1.0
+// @version     1.1
 // @author Niklas Barsk
 // @description Adds an "I don't know the answer" button to reviews. When clicked it will submit an incorrect answer.
 // @include     https://www.wanikani.com/review/session*
@@ -14,7 +14,7 @@ function onDontKnowClick(e) {
         document.getElementById("user-response").value="Aargh! What does that even mean? (╯°□°)╯︵ ┻━┻";
     }
     else {
-        document.getElementById("user-response").value="えぇぇ！。。。さっぱりわからないぃぃぃ。・ﾟﾟ･（≧д≦）･ﾟﾟ･｡";
+        document.getElementById("user-response").value="えぇぇ！。。。さっぱりわからないぃぃぃ。";
     }
 }
 
